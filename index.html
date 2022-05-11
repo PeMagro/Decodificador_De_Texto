@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="decodificador.css" type="text/css">
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <div class="fundo">
+
+        <div class="base">
+            <img class="logo" src="imagens/logo.svg">
+            <textarea spellcheck="false" id="texto_desejado" placeholder="Digite aqui seu texto..."></textarea>
+            <div class="buttons">
+                <div class="aviso"><img src="imagens/aviso.svg"><p>Apenas letras minúsculas e sem acento.</p></div>
+                <button class="cripto" onclick="criptografarFunction()"><p>Criptografar</p></button>
+                <button class="descripto" onclick="descriptografarFunction()"><p>Descriptografar</p></button>
+            </div>
+        </div>
+
+        <div class="decodificador">
+            <div class="estrutura_decodificador" id="estrutura">
+                <img class="img_decodificador" src="imagens/decoracao.svg">
+                <p class="txt_1">Nenhuma mensagem encontrada</p>
+                <p class="txt_2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div> 
+
+    </div>
+
+    <script src="decodificador.js"></script>
+
+</body>
+</html>
