@@ -14,7 +14,7 @@ body {
 .base {
     position: absolute;
     width: 1000px;
-    height: 750px;
+    height: 300px;
     top: 20px;
     left: 50px;
 }
@@ -24,13 +24,14 @@ body {
     width: 800px;
     height: 300px;
     top: 100px;
-    left: 200px;
+    left: 150px;
     font-size: 32px;
     color: #0A3871;
     background-color: transparent;
     resize: none;
     outline: 0;
     border: 0;
+    text-align: center;
 }
 
 .base textarea::placeholder {
@@ -39,8 +40,8 @@ body {
 
 .buttons {
     position: absolute;
-    top: 625px;
-    left: 200px;
+    top: 525px;
+    left: 150px;
 }
 
 .aviso{
@@ -53,52 +54,59 @@ body {
 
 .aviso p {
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
     color: #495057;
     opacity: 0.8;
     padding-left: 10px;
+    text-shadow: 2px 2px 5px #222;
 }
 
 .cripto {
     width: 328px;
     height: 67px;
-    padding: 24px;
+    padding: 20px;
     background: #0A3871;
     border-radius: 24px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px #222;
 }
 
 .cripto p {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #222;
 }
 
 .descripto {
     width: 328px;
     height: 67px;
     margin-left: 30px;
-    padding: 24px;
+    padding: 20px;
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px #222;
 }
 
 .descripto p {
     color: #0A3871;
     font-weight: 400;
-    font-size: 16px
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #5f5f5f;
 }
 
 .decodificador {
     position: absolute;
     width: 400px;
-    height: 744px;
-    left: 1200px;
-    top: 15px;
+    height: 664px;
+    left: 1050px;
+    top: 20px;
     background-color: #fff;
-    box-shadow: 0px 24px 32px -8px;
+    box-shadow: 0px 24px 32px -8px #0A3871;
     border-radius: 32px;
     display: flex;
     flex-direction: column;
@@ -141,7 +149,7 @@ body {
 }
 
 #texto_decodificado {
-    width: 100%;
+    width: 90%;
     height: 425px;
     text-align: center;
     outline: 0;
@@ -162,10 +170,14 @@ body {
     border: 1px solid #D8DFE8;
     border-radius: 24px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px #222;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #222;
 }
 
 .btn_copiar:hover {
     border: 0;
     background: #9e9e9e;
     color: #0A3871;
+    text-shadow: 2px 2px 5px #5f5f5f;
 }
